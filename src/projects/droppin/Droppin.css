@@ -1,0 +1,100 @@
+.droppin {
+    text-align: center;
+    
+}
+
+.droppin-header {
+  margin: 50px;
+
+}
+
+
+.droppin-title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+}
+
+.droppin-title-header {
+    font-size: 5em;
+    padding-top: 40px;
+}
+
+.dropping-download {
+    background: #ABC50F;
+    height: 600px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.dropping-description {
+    background: #ABC50F;
+    font-family: 'Bitter', serif;
+    color: white;
+    padding: 20px;
+}
+
+.dropping-description h2 {
+    margin: 0;
+}
+
+.dropping-description ul {
+    list-style-type: none;
+    padding: inherit;
+  }
+
+
+
+.groveale-digital {
+    background: #ABC50F;
+    padding: 50px 0;
+}
+
+.groveale-digital-icon {
+    background: #ABC50F;
+    width: 20%;
+}
+
+
+
+#hero {
+    height: 1200px;
+    overflow: hidden;
+    position: relative;
+    
+  }
+
+  .layer {
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1200px;
+    position: fixed;
+    z-index: -1;
+    background-color: transparent;
+  }
+
+  .layer-bg {
+    background-position: bottom center;
+    background-color: #4FCFFD;
+  }
+
+
+  @media (max-width: 500px) {
+
+  .store-icon {
+    width: 40%;
+    }
+
+
+    .droppin-title-header {
+        font-size: 3.5em;
+    }
+  }

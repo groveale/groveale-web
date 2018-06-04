@@ -1,0 +1,80 @@
+
+.text-big-light { 
+    /* text-big-light: */
+    font-family: Avenir-Heavy;
+    font-size: 24px;
+    color: var(--color-light);
+    letter-spacing: 0;
+}
+
+.text-long {
+    /* Here is some text th: */
+    font-family: Avenir-Book;
+    font-size: 18px;
+    color: var(--color-secondary2);
+    letter-spacing: 0;
+}
+
+.text-medium {
+    /* A medium title: */
+    font-family: Avenir-Medium;
+    font-size: 18px;
+    color: var(--color-secondary2);
+    letter-spacing: 0;
+}
+
+.text-narrow-light {
+    /* Narrow text left all: */
+    font-family: Avenir-Light;
+    font-size: 18px;
+    color: var(--color-light);
+    letter-spacing: 0;
+}
+
+.text-big {
+    /* A dark title: */
+    font-family: Avenir-Heavy;
+    font-size: 24px;
+    color: var(--color-dark);
+    letter-spacing: 0;
+}
+
+.text {
+    /* Some small text abou: */
+    font-family: Avenir-Book;
+    font-size: 18px;
+    color: var(--color-secondary2);
+    letter-spacing: 0;
+}
+
+
+@media (max-width: 500px) {
+    /* CSS that should be displayed if width is equal to or less than 500px goes here */
+    .text-big-light { 
+        /* text-big-light: */
+        font-size: 18px;
+    }
+    
+    .text-long {
+        /* Here is some text th: */
+        font-size: 14px;
+    }
+
+    .text-medium {
+        /* A medium title: */
+        font-size: 14px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .text-big {
+        font-size: 18px;
+    }
+
+    .text-narrow-light {
+        font-size: 14px;
+    }
+
+  }

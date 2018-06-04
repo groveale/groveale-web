@@ -1,0 +1,60 @@
+
+.NavBar {
+    padding: var(--navbar-padding);
+    background: var(--color-dark);
+    color: var(--color-light);
+    border-bottom: 1px solid var(--color-secondary);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+.NavBar-icon {
+    width: var(--navbar-height-min);
+    height: var(--navbar-height-min);
+    text-align: center; 
+}
+
+.NavBar-items {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+    background: var(--color-dark);
+
+    
+}
+
+.NavBar-item {
+    padding: 0 20px;
+    height:  var(--navbar-height-min);
+    line-height: var(--navbar-height-min); 
+    text-decoration: none;
+  }
+
+  ul#menu li {
+    display:inline;
+}
+
+  @media (max-width: 500px) {
+
+    ul#menu li {
+        display:block;
+    }
+
+    .NavBar-items {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        background: var(--color-dark);
+    
+        
+    }
+
+    .NavBar {
+        
+    } 
+
+  }

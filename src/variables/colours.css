@@ -1,0 +1,22 @@
+/* Custom Properties */
+
+:root {
+    --color:          hsl(0,0%,22%);
+    --color-subtle:   hsl(0,0%,44%);
+    --color-strong:   hsl(0,0%,11%);
+    --color-link:     hsl(0,0%,22%);
+  
+    --color-border:   hsl(0,0%,88%);
+    --color-bg:       hsl(0,0%,96%);
+  
+    --color-accent:   black; /* Fallback */
+
+    --color-dark: rgba(72, 39, 40, 1);
+    --color-secondary2: rgba(126, 77, 95, 1);
+    --color-secondary: rgba(178, 135, 163, 1);
+    --color-light: rgba(192, 248, 209, 1);
+    --color-bright: rgba(240, 140, 174, 1);
+
+    --navbar-height-min: 36px;
+    --navbar-padding: 25px;
+}
