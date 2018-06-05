@@ -101,7 +101,7 @@ class Droppin extends Component {
             <div className="dropping-download">
 
              <img src={appstore} className="store-icon" alt="app store" />
-             <img src={playstore} className="store-icon" alt="play store" />
+             <a href="https://play.google.com/store/apps/details?id=com.groveale.fortnitedrop"><img src={playstore} className="store-icon" alt="play store" /></a>
 
             </div>
 
@@ -117,7 +117,7 @@ class Droppin extends Component {
                 <li>Player Stats and Leader boards</li>
               </ul>
 
-              <h2> Let us know you thoughts or get in  <a href="mailto:support@grovealedigital.com">touch</a> if you have any issues</h2>
+              <h2> Let us know you thoughts or get in  <a href="mailto:onlinesupport@grovealedigital.com">touch</a> if you have any issues</h2>
               
               
         
@@ -126,7 +126,7 @@ class Droppin extends Component {
 
           
         <div className="groveale-digital">
-          <img src={groveale} className="groveale-digital-icon" alt="groveale digital" />
+        <a href="/"><img src={groveale} className="groveale-digital-icon" alt="groveale digital" /></a>
         </div>
 
         </div>
