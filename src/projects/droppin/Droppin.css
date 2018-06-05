@@ -40,6 +40,12 @@
     padding: 20px;
 }
 
+.dropping-description a {
+    
+    color: white;
+  
+}
+
 .dropping-description h2 {
     margin: 0;
 }

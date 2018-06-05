@@ -117,12 +117,14 @@ class Droppin extends Component {
                 <li>Player Stats and Leader boards</li>
               </ul>
 
-              <h2> Let us know you thoughts or get in touch if you have any issues</h2>
+              <h2> Let us know you thoughts or get in  <a href="mailto:support@grovealedigital.com">touch</a> if you have any issues</h2>
               
               
+        
 
           </div>
-        
+
+          
         <div className="groveale-digital">
           <img src={groveale} className="groveale-digital-icon" alt="groveale digital" />
         </div>
