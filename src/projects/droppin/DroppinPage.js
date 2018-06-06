@@ -100,7 +100,7 @@ class Droppin extends Component {
 
             <div className="dropping-download">
 
-             <img src={appstore} className="store-icon" alt="app store" />
+             <a href="https://itunes.apple.com/us/app/droppin/id1383700189?ls=1&mt=8"><img src={appstore} className="store-icon" alt="app store" /></a>
              <a href="https://play.google.com/store/apps/details?id=com.groveale.fortnitedrop"><img src={playstore} className="store-icon" alt="play store" /></a>
 
             </div>
