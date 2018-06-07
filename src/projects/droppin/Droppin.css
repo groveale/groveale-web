@@ -24,7 +24,7 @@
 .dropping-download {
     background: #ABC50F;
     height: 600px;
-    margin-top: 0px;
+    margin-top: -15px;
     display: flex;
     flex-direction: row;
     align-items: center;
