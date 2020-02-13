@@ -7,6 +7,7 @@ import {
 import logo from './logo.svg';
 import HomePage from './pages/HomePage';
 import Droppin from './projects/droppin/DroppinPage';
+import Tappy from './projects/tappy/TappyPrivacy';
 import CommingSoon from './components/commingsoon/CommingSoon';
 
 import './variables/colours.css';
@@ -24,6 +25,7 @@ class App extends Component {
         {/* <Route path="/" exact={true} component={HomePage} /> */}
 
         <Route path="/projects/droppin" exact={true} component={Droppin} />
+        <Route path="/projects/tappy" exact={true} component={Tappy} />
 
         {/* <Route path="/droppin" component={Droppin} />
         <Route path="/about" component={About} /> */}
